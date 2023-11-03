@@ -63,3 +63,13 @@ html,body{
     text-align: right;
     line-height: 3;
 }
+
+#smallheading{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.4vw;
+    margin-top: 6.5vw;
+    text-align: right;
+    margin-right: 38px;
+    line-height: 2.1;
+}
