@@ -68,8 +68,39 @@ html,body{
     color: white;
     text-transform: uppercase;
     font-size: 1.4vw;
-    margin-top: 6.5vw;
+    margin-top: 6vw;
     text-align: right;
     margin-right: 38px;
     line-height: 2.1;
+}
+
+#herofooter{
+    padding: 0 3vw;
+    width: 100%;
+    position: absolute;
+    bottom: 1%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#herofooter a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+#herofooter #iconset{
+    display: flex;
+    gap: 3px;
+}
+#herofooter .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(177, 175, 175);
+    font-weight: bold;
 }
