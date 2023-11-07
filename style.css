@@ -139,4 +139,86 @@ html,body{
     position: absolute;
 }
 
+#about{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 25vw 10vw;
+    padding-left: 30vw ;
+    padding-top: 1;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
 
+#about img{
+    width: 200px;
+}
+#about a{
+    color: white;
+    border: 1px solid white;
+    border-radius: 30%;
+}
+#textabout{
+    width: 25rem;
+}
+#textabout h5{
+    text-transform: uppercase;
+    opacity: .7;
+    margin-bottom: 10px;
+}
+#textabout p{
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+#textabout a{
+    padding: 7px 18px;
+    border: 1px solid white;
+    border-radius: 100px;
+    text-decoration: none;
+}
+#subscribe{
+    color: white;
+    padding:10px 40px;
+    background-color: black;
+    padding-bottom: 10vw;
+}
+
+#subscribe h5{
+    color: white;
+    opacity: .7;
+    text-transform: uppercase;
+    line-height: 2.9;
+}
+#subscribe a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 38px;
+    margin-bottom: 15px;
+}
+#footerleft{
+    display: flex;
+    gap: 30px;
+    color: white;
+}
+#footerright{
+    display: flex;
+    gap: 50px;
+}
+#footerright a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
