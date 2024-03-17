@@ -149,7 +149,6 @@ html,body{
     padding-right: 0;
     padding-left: 0;
     border-top: 1px solid #aeadad;
-
 }
 .elem h1{
     text-transform: uppercase;
@@ -161,9 +160,12 @@ html,body{
 }
 
 .elem img{
-    display: none;
-    height: 140%;
+    opacity: 0;
+    pointer-events: none;
+    height: 130%;
+    z-index: 999;
     position: absolute;
+    transform: translate(-50%,-50%);
 }
 
 #about{
